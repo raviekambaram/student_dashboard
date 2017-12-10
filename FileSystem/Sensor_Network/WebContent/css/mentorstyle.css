@@ -1,0 +1,6 @@
+ body1 {
+	background: url("../images/photo_bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+	 font-family: "Open Sans", sans-serif;
+  height: 100vh;
+}

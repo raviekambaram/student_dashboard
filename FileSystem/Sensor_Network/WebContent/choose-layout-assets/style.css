@@ -1,0 +1,228 @@
+
+body {
+	background: url(../form-3/assets/img/bg.jpg) left top repeat;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #888;
+    line-height: 30px;
+    text-align: center;
+}
+
+strong { font-weight: 500; }
+
+a, a:hover, a:focus {
+	color: #19b9e7;
+	text-decoration: none;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+a:hover, a:focus { border-bottom: 1px dotted #19b9e7; }
+
+h1, h2 {
+	margin-top: 10px;
+	font-size: 38px;
+    font-weight: 100;
+    color: #555;
+    line-height: 50px;
+}
+
+h3 {
+	font-size: 22px;
+    font-weight: 300;
+    color: #555;
+    line-height: 30px;
+}
+.no-margin-top h3 { margin-top: 0; }
+
+img { max-width: 100%; }
+
+::-moz-selection { background: #19b9e7; color: #fff; text-shadow: none; }
+::selection { background: #19b9e7; color: #fff; text-shadow: none; }
+
+
+.container {
+	padding-bottom: 60px;
+}
+
+.section-container {
+    margin: 0 auto;
+}
+
+.section-description {
+	margin-top: 60px;
+    padding-bottom: 10px;
+}
+.section-description.no-margin-top { margin-top: 0; }
+
+.section-description p {
+    margin-top: 20px;
+	padding: 0 120px;
+}
+
+
+.top {
+	margin: 0 auto;
+	padding: 40px 0 50px 0;
+}
+
+.top .divider-1 span {
+	background: rgba(255, 255, 255, 0.8);
+}
+
+.top h1 {
+	margin-top: 40px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.top p {
+	margin-top: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+.layouts {
+	border-top: 1px solid #ddd;
+}
+
+.layout-box {
+ 	padding: 30px 20px 20px 20px;
+}
+
+.layout-box h3 {
+	padding: 10px 0;
+}
+
+.layout-box p {
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+.layout-box img {
+	border: 5px solid #eee;
+	-o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+.layout-box a:hover img { border-color: #ddd; }
+
+.footer {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-top: 1px solid #ddd;
+}
+
+
+.relative{position:relative; width:600px;}
+.absolute-text{position:absolute; bottom:0; font-size:24px; font-family:"vedana"; background:rgba(251,251,251,0);
+padding:10px 20px; width:100%; text-align:center;}
+.absolute-text a{font-size:16px; color:#000000;}
+
+/* CSS */
+/*.relative{position:relative; width:600px;}
+.absolute-text{position:absolute; bottom:0; font-size:24px; font-family:"vedana"; background:rgba(251,251,251,0.5);
+padding:10px 20px; width:100%; text-align:center;}
+.absolute-text a{font-size:16px; color:#b92b27;}  */
+
+
+.caption-style-1 {
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+}
+.caption-style-1 li {
+float: left;
+padding: 0px;
+position: relative;
+overflow: hidden;
+}
+.caption-style-1 li:hover .caption {
+opacity: 1;
+}
+.caption-style-1 img {
+margin: 0px;
+padding: 0px;
+float: left;
+z-index: 4;
+}
+.caption-style-1 .caption {
+cursor: pointer;
+position: absolute;
+opacity: 0;
+-webkit-transition: all 0.45s ease-in-out;
+-moz-transition: all 0.45s ease-in-out;
+-o-transition: all 0.45s ease-in-out;
+-ms-transition: all 0.45s ease-in-out;
+transition: all 0.45s ease-in-out;
+}
+.caption-style-1 .blur {
+background-color: rgba(0,0,0,0.90);
+height: 300px;
+width: 400px;
+z-index: 5;
+position: absolute;
+}
+.caption-style-1 .caption-text h1 {
+text-transform: uppercase;
+font-size: 24px;
+color: #fff;
+}
+.caption-style-1 .caption-text {
+z-index: 10;
+color: #fff;
+position: absolute;
+width: 290px;
+height: 30px;
+text-align: center;
+top: 100px;
+}
+
+.middle-border {
+	min-height: 300px;
+	margin-top: 170px;
+	border-right: 1px solid #fff;
+	border-right: 1px solid rgba(255, 255, 255, 0.6);
+}
+table {
+    width: 100%;
+}
+
+th {
+    height: 50px;
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	.section-description p { padding: 0; }
+	
+}
+
+@media (max-width: 767px) {
+
+	.section-description p { padding: 0; }
+	
+}
+
+@media (max-width: 415px) {
+	
+	h1, h2 { font-size: 32px; }
+
+}
+#imaginary_container{
+    margin-top:20%; /* Don't copy this */
+}
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}

@@ -1,0 +1,191 @@
+@CHARSET "ISO-8859-1";
+
+
+body.bgtest {
+	background-image: url("../img/bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+
+	
+	
+/*	background-color: blue; 
+	background-image: url("../images/image1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	filter: blur(5px);
+	background-size: cover;
+	filter: blur(5px);
+	filter: grayscale(100%);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;  */
+}
+
+
+div.upper {
+	width: 80%;
+	height: 140px;
+	padding: 15px;
+	left: 10%;
+	right: 10%;
+/*	margin-top: 5%;
+	margin-bottom: 2%;*/
+	top: 0;
+	background-color: white;
+	background-image: url("../images/symbol.jpg");
+	background-size: 160px;
+	background-position: 30px;
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
+	z-index: 999;
+	display: inline-block;
+    box-shadow: 1px 3px 30px 8px grey;
+}
+
+div.upper > div {
+	float: right;
+	left: 149px;
+	top: 87px;
+	position: absolute;
+}
+
+div.upper > div > div {
+	color: gray;
+	text-decoration: overline;
+}
+
+div.upper > span {
+	float: right;
+	top: 45px;
+	position: relative;
+	padding-right: 40px;	
+}
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+
+.topcorner{
+    position:absolute;
+    top:10px;
+    right: 10px;
+ }
+
+input.inputclass {
+	font-size: 16px;
+	padding: 16px 33px;
+	margin: 4px 2px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+button.searchbutton {
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    
+ /*   -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;  */
+}
+
+button.searchbutton :hover {
+	background-color: blue !important;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+p.lower {
+	width: 80%;
+    height: 100%;
+    padding: 15px;
+    left: 10%;
+    right: 10%;
+   /* margin-top: 2%;
+    margin-bottom: 5%;*/
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background-color: white;
+    opacity: 0.89;
+    position: relative;
+    z-index: 999;
+    text-align: center;
+    box-shadow: 1px 3px 30px 8px grey;
+    display: inline-block;
+        
+        
+    /*   position: fixed;
+    z-index: 2;  */
+
+/*  position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+	position: relative;
+	z-index: 10;
+	-moz-box-shadow: 20px 20px 20px 20px grey;
+	-webkit-box-shadow: 10px 5px 10px 5px grey;
+	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-moz-box-shadow: 5px 15px 5px 0px #000;
+	-webkit-box-shadow: 5px 15px 5px 0px #000;
+	box-shadow: 5px 15px 5px 0px #000; */
+}
+
+a.one:link {
+	text-decoration: none;
+	color: blue;
+}
+
+a.one:hover {
+	color: green;
+/*	font-size: 50%;   */
+	position: relative;
+	left: 10px;
+	top:-10px;
+	text-shadow: 3px 3px 4px #000000;
+}
+
+a.one:hover + span {
+	display: block;
+}
+
+span.me {
+	background-color: yellow;
+	padding: 20px;
+	border-radius: 25px;
+	display: none;
+}

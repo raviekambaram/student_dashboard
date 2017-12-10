@@ -1,0 +1,84 @@
+/* General Styles ( You don't need this for your button ) */
+body
+{
+     background:#f9f9f9;
+}
+#container
+{
+     width: 580px;
+	 padding: 30px;
+	 border: 1px solid #e4e4e4;
+	 margin: 0 auto;
+	 background: #fff;
+	 margin-top: 100px;
+	 margin-bottom: 100px;
+	 -webkit-border-radius: 5px;
+	 -moz-border-radius: 5px;
+}
+/* p{
+	width: 260px;
+	height: 35px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+	
+}
+ */.text
+{
+     font-size:20px;	
+	 color:#666;
+	 border-bottom:1px solid black;
+}
+.return
+{
+     color: #809dba;
+}
+/*End General Styles*/
+
+/* Button Styles */
+
+.button1 /* Button with CSS only */ 
+{
+     background: url(../images/view_course.jpg);
+     height:67px;
+	 width:582px;
+	 display:block;
+}
+.button1:hover
+{
+     background-position:0px 67px;
+}
+.button3 /* Button with CSS only */ 
+{
+     background: url(../images/create_course.jpg);
+     height:67px;
+	 width:582px;
+	 display:block;
+}
+.button3:hover
+{
+     background-position:0px 67px;
+}
+/* Button with jQuery */ 
+.button2
+{
+     background: url(../images/create_course.jpg);
+     height:67px;
+	 width:582px;
+	 display:block;
+	 background-position:0 -67px;
+}
+.button2 a
+{
+     background: url(images/contact.png);
+     height:67px;
+	 width:582px;
+	 display:block;
+}

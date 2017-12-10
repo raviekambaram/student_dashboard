@@ -1,0 +1,17 @@
+"courseID";"course_name";"userID";"first_name";"last_name";"Scores";"gradeprim"
+2;"Operating Systems";"TC01";"Tim";"Cook";"20";1
+2;"Operating Systems";"RT01";"Ratan";"Tata";"20";3
+2;"Operating Systems";"MK01";"Mark";"Zuk";"15";4
+2;"Operating Systems";"FS01";"Frank";"Souz";"20";5
+3;"Database System";"YS01";"Yash";"Shaw";"20";6
+2;"Operating Systems";"SP01";"Sundar";"Pichai";"10";8
+7;"Software Enginerring";"SP01";"Sundar";"Pichai";"20";9
+5;"Algos";"SP01";"Sundar";"Pichai";"10";10
+2;"Operating Systems";"PK01";"Ram";"Kumar";"20";11
+5;"Algos";"PK01";"Ram";"Kumar";"20";12
+8;"APC";"PK01";"Ram";"Kumar";"15";13
+10;"Course1";"SP01";"Sundar";"Pichai";"20";14
+8;"APC";"SP01";"Sundar";"Pichai";"10";15
+8;"APC";"yashna26";"Yashna";"Parikh";"10";16
+13;"SE";"yashna26";"Yashna";"Parikh";"10";17
+11;"course2";"STUD01";"STUD1";"SU";"0";18
